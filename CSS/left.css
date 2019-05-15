@@ -1,0 +1,82 @@
+.pic{
+	padding: 30px 45px 30px 45px;
+}
+img.pic{
+	width:230px;
+}
+h1.pic{
+	margin:0 auto;
+	text-align: center;
+	padding:20px;
+	padding-top: 0;
+}
+h2.pic{
+  margin:0 auto;
+  text-align: center;
+  padding:20px;
+  padding-bottom: 0;
+}
+hr{
+	width: 300px;
+	border:2px solid #F3EAC0;
+}
+.button{
+	padding:30px 105px 30px 105px;
+}
+.butn{
+	border:2px solid #F3EAC0;
+	color:#F3EAC0;
+	background-color:#747080;
+	border-radius:10px;
+	width:100px;
+	height:50px;
+	font-family: "微軟正黑體";
+	padding: 10px;
+}
+.butn:hover{
+	color:#5E376D;
+	background-color:#F3EAC0;
+	border:2px solid #5E376D;
+}
+.timeline {
+  position: relative;
+  max-width: 400px;
+  margin: 0 auto;
+}
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: #F3EAC0;
+  top: 0;
+  bottom: 10px;
+  left: 10px;
+  margin-left: -3px;
+}
+.times {
+  padding: 10px 30px;
+  position: relative;
+  width: 90%;
+  height: 160px
+  
+}
+.times::after {
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: -4px;
+  background-color:#F3EAC0; 
+  border: 4px solid #5E376D;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.time {
+  position: relative;
+  top:-11px;
+}
+h3{
+	font-weight: bold;
+}

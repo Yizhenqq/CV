@@ -1,0 +1,24 @@
+body{
+	background-color:#EBDC95;
+	display: flex;
+	justify-content: center;
+	font-family: "微軟正黑體";
+}
+.main{
+	position: relative;
+	width:1000px;
+	display: flex;
+	justify-content: center;
+	border:5px solid white;
+	background-color: #F3EAC0;
+}
+.left{
+	background-color: #747080;
+	flex:5;
+	color: #F3EAC0;
+}
+.right{
+	flex:7;
+}
+
+
