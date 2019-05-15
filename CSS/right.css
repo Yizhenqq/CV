@@ -121,9 +121,11 @@ h2.aboutme{
   width: 100%;
 }
 img.club{
-  width: 32%;
+  width: 40%;
   margin:0 auto;
   border-radius: 3px;
+  position: relative;
+  left:20px;
 }
 .slides{
   float: left;  
